@@ -11,7 +11,7 @@ $obj->a('a')->b('b')->some_method(); // setters always return $this, so you can 
 
 // some 'magic' helper functionality:
 $obj->prop();
-    // 1.  Does $obj->get_prop() exist?  If so, return this value
+    // 1.  Does $obj->get_prop() exist?  If so, return $obj->get_prop() value
     // 2.  If not, return $obj->prop;
 
 // This is nice so you can implement getters and setters in the future, when they're needed.
